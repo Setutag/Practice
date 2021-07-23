@@ -41,7 +41,7 @@ class Player(Entity):
 
 app = Ursina()
 landscape = Scene()
-audio = Audio('melody.wav', loop = True)
+#audio = Audio('melody.wav', loop = True)
 bot = Player((0, -17))
 camera.position = (0, 30, -100)
 camera.rotation_x = 15
