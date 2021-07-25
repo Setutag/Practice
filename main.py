@@ -101,5 +101,6 @@ app = Ursina()
 
 bot = Player()
 land = Scene()
+music = Audio ('melody', loop = True, multiplier = 1)
 
 app.run()
