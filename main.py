@@ -67,7 +67,7 @@ class Player(Entity):
         self.v = [1, 1] #velocity
         self.l = 0.5 #distance between wheels
         self.k = 30 #rotation coefficient
-        self.s = 1.5 #speed
+        self.s = 20 #speed
         self.pic = analize()
 
     def update(self):
@@ -90,8 +90,8 @@ class Player(Entity):
             camera.z = -16.832792282104492
             camera.rotation_y = 361.1536560058594
 
-        if held_keys['t']:
-            print('X: ', camera.x, '\nZ: ', camera.z, '\nAngle:', camera.rotation_y, ' ', self.a )
+       # if held_keys['t']:
+       #    print('X: ', camera.x, '\nZ: ', camera.z, '\nAngle:', camera.rotation_y, ' ', self.a )
 
         self.pic = analize()
 
