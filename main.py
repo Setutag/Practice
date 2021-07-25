@@ -62,12 +62,12 @@ class Player(Entity):
         camera.position = [-16.741268157958984, 4, -16.832792282104492]
         camera.rotation_x = 45
         camera.rotation_y = 361.1536560058594
-        self.a = 4.732460266782609
-        self.r = 0.025
-        self.v = [1, 1]
-        self.l = 0.5
-        self.k = 30
-        self.s = 1.5
+        self.a = 4.732460266782609 #angle
+        self.r = 0.025 #radius
+        self.v = [1, 1] #velocity
+        self.l = 0.5 #distance between wheels
+        self.k = 30 #rotation coefficient
+        self.s = 1.5 #speed
         self.pic = analize()
 
     def update(self):
