@@ -34,8 +34,6 @@ def analize():
             cv2.putText(bgr_img, 'Fine', (40, 100), cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 255, 0), 3)
             signal = 'forward'
 
-    else:
-        signal = 'stop'
 
     cv2.rectangle(bgr_img, (0, 0), (1920, 1080), (0, 0, 0), 70)
     cv2.line(bgr_img, (960, 0), (960, 1080), (0, 0, 255), 5)
